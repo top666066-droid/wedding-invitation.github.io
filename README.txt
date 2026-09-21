@@ -1,8 +1,22 @@
-Halaheel Door + Hero V2
+HALAHEEL INVITATION - V3
+==========================
 
-افتح index.html في Chrome.
-اضغط على الباب 3 مرات لبدء المشهد.
+أسهل تعديل:
+افتح الملف:
+config.js
 
-ملاحظة: ملفات المصدر التي تم رفعها تحتوي على hero-poster.jpg ورابط hero.mp4 في HTML، لكن الـHAR المرفوع لا يحتوي على جسم ملف hero.mp4؛ لذلك تم ترك مكانه جاهزًا داخل assets/ بدل اختلاق فيديو.
+وغيّر فقط:
+groom      = اسم العريس
+bride      = اسم العروسة
+date       = التاريخ
+time       = الوقت
+subtitle   = الجملة
+venue      = القاعة
+location   = العنوان
 
-لإضافة الفيديو الحقيقي: ضع الملف باسم hero.mp4 داخل مجلد assets.
+ثم ارفع config.js إلى GitHub واضغط Commit changes.
+
+ملاحظة:
+النسخة الحالية هي Door + Hero. سنكمل عليها باقي أقسام الدعوة.
+hero.mp4 اختياري؛ إذا توفر ضعه داخل assets باسم:
+hero.mp4
