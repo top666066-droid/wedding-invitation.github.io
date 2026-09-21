@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>دعوة زفاف محمد & زينب</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Tajawal:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="locked">
+<section id="cover" class="cover">
+  <video id="doorVid" class="cover__vid" poster="assets/door-poster.jpg" muted playsinline preload="auto">
+    <source src="assets/door.mp4" type="video/mp4">
+  </video>
+  <div class="cover__veil"></div>
+  <button id="tapLayer" class="tap-layer" aria-label="دق على الباب"></button>
+  <div class="cover__ui" id="coverUi">
+    <p class="cover__names">محمد &amp; زينب</p>
+    <p class="cover__hint">دُقّوا على الباب ثلاث دقّاتٍ ليُفتح</p>
+    <div class="knocks"><span></span><span></span><span></span></div>
+  </div>
+</section>
+<main id="invite" class="invite" aria-hidden="true">
+  <section class="stage">
+    <video id="heroVid" class="stage__vid" poster="assets/hero-poster.jpg" muted loop playsinline preload="auto">
+      <source src="assets/hero.mp4" type="video/mp4">
+    </video>
+    <div class="stage__veil"></div>
+    <div class="stage__inner">
+      <p class="stage__kicker">دعوة زفاف</p><span class="stage__orn">✿</span>
+      <h1 class="couple"><span>محمد</span><b>&amp;</b><span>زينب</span></h1>
+      <p class="stage__date">يوم الجمعة، ٢٠ تشرين الثاني ٢٠٢٦</p>
+      <p class="stage__time">الساعة السابعة مساءً</p>
+      <p class="stage__hint">بكل الحب ننتظركم لمشاركتنا فرحتنا</p>
+    </div>
+  </section>
+</main>
+<script src="script.js"></script>
+</body></html>
